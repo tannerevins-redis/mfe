@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "serve": "wsrun --parallel serve",
-    "start": "concurrently \"wsrun --parallel start\" \"wsrun --parallel serve\""
+    "start": "concurrently \"wsrun --parallel start\" \"wsrun --parallel serve\"",
+    "clean": "wsrun --parallel clean"
   },
   "workspaces": [
     "packages/*"
